@@ -1,0 +1,206 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="{% static 'css\style.css' %}">
+    <link rel="shortcut icon" href="static\img\avion.png" type="image/x-icon">
+
+    <title>Travel is fun</title>
+</head>
+
+<body id="inicio">
+    <div class="w3-bar w3-black">
+        <a href="#" class="w3-bar-item w3-button">Inicio</a>
+        <a href="#nosotros" class="w3-bar-item w3-button " class="nav-link js-scroll-trigger">Mas sobre nosotros</a>
+        <a href="#formulario"><button class="w3-button w3-black w3-border w3-border-white w3-round-large w3-right">Registrarse</button></a>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="#"><img src="static\img\a.jpg" class="d-block w-100" alt="..."></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="titulo">Travel Is Fun</h5>
+                    <p class="parrafo">Viajar nunca habia sido tan comodo.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="#"><img src="static\img\egipto.jpg" class="d-block w-100" alt="..."></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="titulo">Las fronteras no son un limite</h5>
+                    <p class="parrafo">¡Viaja a donde quieras con nosotros!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="#"><img src="static\img\italia.jpg" class="d-block w-100" alt="..."></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="titulo">¿Italia? ¿Roma?</h5>
+                    <p class="parrafo">A donde quieras cuando tu quieras con Travel Is Fun.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+        <h1 class="titulotravel">Travel Is Fun</h1>
+        <p class="w3-opacity">The limit is the sky</p>
+        <p class="w3-justify contenido">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, neque numquam
+            maxime omnis recusandae, nemo assumenda eveniet ducimus sunt eum, deserunt blanditiis. Dicta quasi quod
+            delectus adipisci ipsam corrupti magni sunt quia pariatur, rerum dolorem, obcaecati in. Ea asperiores error
+            cupiditate rem, dolorem voluptatibus, illo saepe odit minima omnis, fugit sapiente voluptatum voluptates
+            minus distinctio culpa. Id voluptatum dolorum ratione possimus doloribus. Ea sed ex quo fuga omnis voluptate
+            quaerat illo assumenda! Quis tenetur rem quae excepturi, incidunt eaque error quidem vitae fugiat fuga,
+            cupiditate a earum aperiam laudantium itaque consectetur repudiandae magnam facere saepe id, provident
+            reprehenderit molestias ipsam. Ab fugiat consequatur autem beatae magni perspiciatis laudantium eligendi
+            error suscipit consequuntur provident, explicabo debitis eum accusamus dolorem earum incidunt. Maxime sit
+            voluptatibus odit illo exercitationem, laudantium sequi. Atque error delectus ipsam soluta mollitia, ullam
+            accusantium! Doloribus, tenetur? Asperiores dignissimos corporis exercitationem quasi consequuntur possimus
+            dicta ab cupiditate maiores. Repudiandae ratione perferendis est nisi, praesentium eaque laboriosam rerum
+            suscipit sit odio unde nihil debitis perspiciatis, distinctio mollitia harum accusamus doloremque labore.
+            Accusantium voluptates minima illum mollitia quia odio vero deleniti alias eveniet blanditiis nihil quis
+            quam consequatur at, vitae asperiores possimus magni fuga libero recusandae obcaecati id. Commodi, quos ab?
+        </p>
+    </div>
+
+
+
+    <div class="w3-display-container w3-wide" id="home">
+        <img class="w3-image" src="static\img\world.jpg" alt="Videojuegos" width="1600" height="1060">
+        <div class="w3-display-left w3-padding-large">
+            <h1 class="w3-text-white">Travel Is Fun</h1>
+            <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>The limit is the sky</b></h1>
+            <h6><a href="#formulario"><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off"
+                    onclick="document.getElementById('subscribe').style.display='block'">Ingrese aqui</button></a></h6>
+        </div>
+    </div>
+
+    <div class="w3-container" style="padding:128px 16px" id="nosotros">
+        <h3 class="w3-center titulotravel">¿Quienes somos?</h3>
+        <p class="w3-center w3-large contenido">Creadores</p>
+        <div class="w3-row-padding " style="margin-top:64px">
+            <div class="w3-col l3 m6 w3-margin-right">
+                <div class="w3-card">
+                    <img src="static\img\kevin.jpeg" alt="John" style="width:100%">
+                    <div class="w3-container">
+                        <h3 class="titulotravel">Kevin Posada</h3>
+                        <p class="w3-opacity contenido">Diseñador Web</p>
+                        <p class="contenido">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales
+                            pellentesque
+                            elementum.</p>
+                        <p class="contenido"><button class="w3-button w3-light-grey w3-block"><i
+                                    class="fa fa-envelope"></i>
+                                Contacto</button></p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-right">
+                <div class="w3-card">
+                    <img src="static\img\ana.jpeg" alt="Jane" style="width:100%">
+                    <div class="w3-container">
+                        <h3 class="titulotravel">Ana Lopez</h3>
+                        <p class="w3-opacity contenido">Directora de arte</p>
+                        <p class="contenido">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales
+                            pellentesque
+                            elementum.</p>
+                        <p class="contenido"><button class="w3-button w3-light-grey w3-block"><i
+                                    class="fa fa-envelope"></i>
+                                Contacto</button></p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-right">
+                <div class="w3-card">
+                    <img src="static\img\gen.jpeg" alt="Mike" style="width:100%">
+                    <div class="w3-container">
+                        <h3 class="titulotravel">Gen Contreras</h3>
+                        <p class="w3-opacity contenido">CEO of Travel Is Fun</p>
+                        <p class="contenido">La trayectoria por diferentes países nos ha demostrado la gran necesidad de
+                            las personas por
+                            viajar conocer y experimentar culturas diferentes, pensando en esa visión es que nace Travel
+                            Is Fun con una misión de traer viajes al alcance de todos.
+                        </p>
+                        <p class="contenido"><button class="w3-button w3-light-grey w3-block"><i
+                                    class="fa fa-envelope"></i>
+                                Contacto</button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form class="container" id="formulario" style="padding-bottom: 100px; padding-right: 20%; padding-left: 20%;" >
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su correo.">
+            <small id="emailHelp" class="form-text text-muted">Nosotros nunca compartiremos su correo con nadie.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingrese su contraseña">
+        </div>
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Acepto los terminos de privacidad.</label>
+        </div>
+        <button type="submit" class="btn btn-primary btn-dark">Registrarse</button>
+    </form>
+
+    <footer class="w3-center w3-black w3-padding-64 ">
+        <a href="#inicio" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Hacia
+            arriba</a>
+        <div class="w3-xlarge w3-section">
+            <a href="https://www.facebook.com/" target="_blank"><img src="static\img\facebook.png"
+                    class="fa fa-facebook-official w3-hover-opacity" alt="" width="3%"></a>
+            <a href="https://www.whatsapp.com/?lang=es" target="_blank"><img src="static\img\whatsapp.png"
+                    class="fa fa-whatsapp w3-hover-opacity" alt="" width="3%"></a>
+            <a href="https://www.instagram.com/?hl=es-la" target="_blank"><img src="static\img\icons8-instagram-48.png"
+                    class="fa fa-instagram w3-hover-opacity" width="4%"></a>
+
+        </div>
+        <p class="w3-opacity">Todos los derechos reservados.</p>
+    </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
